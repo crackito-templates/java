@@ -1,0 +1,3 @@
+src/test/java/Exercice1Test.java
+src/test/java/**/*.java
+src/test/java/*.java
