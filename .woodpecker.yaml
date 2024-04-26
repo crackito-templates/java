@@ -1,0 +1,9 @@
+steps:
+    - name: backend
+      image: maven:3-eclipse-temurin-8
+      commands:
+          - mvn test
+    - name: export result
+      image: ghcr.io/crackito-io/crackito-junit-adapter:latest
+      environment:
+          FOLDER_PATH: target/surefire-reports
