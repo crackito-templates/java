@@ -6,7 +6,7 @@ import io.crackito.EmptyStackException;
 import io.crackito.PileBornee;
 import org.junit.Test;
 
-public class Exercice1Test {
+public class Exercise1Test {
 
     @Test
     public void testIsEmptyAfterCreate() {
