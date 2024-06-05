@@ -7,3 +7,4 @@ steps:
       image: ghcr.io/crackito-io/crackito-junit-adapter:latest
       environment:
           FOLDER_PATH: target/surefire-reports
+      secrets: [CALLBACK_TOKEN, WEBHOOK_URL]
