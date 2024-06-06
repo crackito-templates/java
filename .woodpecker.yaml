@@ -3,6 +3,7 @@ steps:
       image: maven:3-eclipse-temurin-8
       commands:
           - mvn test
+      failure: ignore
     - name: export result
       image: ghcr.io/crackito-io/crackito-junit-adapter:latest
       environment:
